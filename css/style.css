@@ -1,0 +1,56 @@
+/*Resets*/
+body, div, ul, p {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background: url('../images/background.png');
+	color: #fff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 1.125em;
+    font-weight: 300;
+}
+
+.content {
+	margin: 10% auto;
+	width: 40%;
+}
+
+.content img {
+	display: block;
+	margin: 0 auto;
+}
+
+#poller {
+	background: rgba(29,29,29, 0.9);
+	border: 3px solid #d0cfcf;
+	border-radius: 1.563em;
+	height: 235px;
+	margin: 2.188em auto 0 auto;
+	overflow: hidden;
+	width: 70%;
+}
+
+#poller p {
+	border-bottom: 1px solid #d0cfcf;
+	margin: 1em 0 0 0;
+	padding: 0 1.563em 1em 1.563em;
+}
+
+#poller p:nth-child(4) {
+	border-bottom: 0;
+}
+
+#poller p span {
+	float: right;
+	font-size: 0.778em;
+	padding: 4px 0 0 0;
+}
+
+#poller p strong span {
+	color: #9e0b0f;
+	font-size: inherit;
+	padding: 0;
+}
