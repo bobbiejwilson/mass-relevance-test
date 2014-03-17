@@ -8,12 +8,12 @@ function displayPoll() {
 		var bandArray = getPoll.getData();
 		bandArray = getPoll.processData(bandArray);
 		$.each(bandArray, function(i) {
-			$('#poller').append("<p><span>&nbsp;Mentions</span><strong>" + bandArray[i].name + "<span>" + bandArray[i].count + "</span></strong></p>");
+			$('#poller').append("<li><span>&nbsp;Mentions</span><strong>" + bandArray[i].name + "<span>" + bandArray[i].count + "</span></strong></li>");
 			
 		});
 		setTimeout(function() {
-  			$('#poller p').fadeOut(function(){
-  				$('#poller p').remove();
+  			$('#poller li').fadeOut(function(){
+  				$('#poller li').remove();
   			});
   				
   		}, 14000);

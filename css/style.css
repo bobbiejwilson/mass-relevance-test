@@ -33,23 +33,23 @@ body {
 	width: 70%;
 }
 
-#poller p {
+#poller li {
 	border-bottom: 1px solid #d0cfcf;
 	margin: 1em 0 0 0;
 	padding: 0 1.563em 1em 1.563em;
 }
 
-#poller p:nth-child(4) {
+#poller li:nth-child(4) {
 	border-bottom: 0;
 }
 
-#poller p span {
+#poller li span {
 	float: right;
 	font-size: 0.778em;
 	padding: 4px 0 0 0;
 }
 
-#poller p strong span {
+#poller li strong span {
 	color: #9e0b0f;
 	font-size: inherit;
 	padding: 0;

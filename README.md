@@ -29,7 +29,3 @@ The leaderboard that you build should satisfy these basic requirements:
 * **Bonus:** Animate the leaderboard update in some way (fade/dissolve, sliding, etc.).
 
 When you're finished, please send your work your Mass Relevance dev contact as a .zip file or (preferably) a link to a public repo on GitHub.
-
-## Stuckness
-
-It displays the first 4 returned values in the array only a couple times and then it adds in increments of 4. Not sure why. CSS FTW in this case.
